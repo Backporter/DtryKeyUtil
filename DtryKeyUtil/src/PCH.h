@@ -1,0 +1,82 @@
+#pragma once
+
+#include <cassert>
+#include <cctype>
+#include <cerrno>
+#include <cfloat>
+#include <cinttypes>
+#include <climits>
+#include <clocale>
+#include <cmath>
+#include <csetjmp>
+#include <cstdarg>
+#include <cstddef>
+#include <cstdint>
+#include <cstdlib>
+#include <cstdio>
+#include <cstring>
+#include <ctime>
+#include <cuchar>
+#include <cwchar>
+#include <cwctype>
+#include <algorithm>
+#include <array>
+#include <atomic>
+#include <bitset>
+#include <chrono>
+#include <complex>
+#include <condition_variable>
+#include <deque>
+#include <exception>
+#include <forward_list>
+#include <fstream>
+#include <functional>
+#include <future>
+#include <initializer_list>
+#include <iomanip>
+#include <iosfwd>
+#include <ios>
+#include <iostream>
+#include <istream>
+#include <iterator>
+#include <limits>
+#include <locale>
+#include <map>
+#include <memory>
+#include <mutex>
+#include <new>
+#include <numeric>
+#include <ostream>
+#include <queue>
+#include <random>
+#include <regex>
+#include <ratio>
+#include <scoped_allocator>
+#include <set>
+#include <shared_mutex>
+#include <sstream>
+#include <stack>
+#include <stdexcept>
+#include <streambuf>
+#include <string>
+#include <system_error>
+#include <thread>
+#include <tuple>
+#include <typeindex>
+#include <typeinfo>
+#include <type_traits>
+#include <unordered_map>
+#include <unordered_set>
+#include <utility>
+#include <valarray>
+#include <vector>
+
+#include "../../../CSEL/source/RE/Skyrim.h"
+#include "../../../CSEL/EXTERNAL/SKSE/SKSE.h"
+#include "../../../CSEL/source/REL/Relocation.h"
+
+#include "lib\SimpleIni.h"
+
+
+// Compatible declarations with other sample projects.
+#define DLLEXPORT __declspec(dllexport)

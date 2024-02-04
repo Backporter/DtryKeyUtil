@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\inputHandler\animEvent.cpp" />
+    <ClCompile Include="src\inputHandler\inputTracer.cpp" />
+    <ClCompile Include="src\inputHandler\inputTrigger.cpp" />
+    <ClCompile Include="src\inputHandler\movementInputTracer.cpp" />
+    <ClCompile Include="src\hooks.cpp" />
+    <ClCompile Include="src\inputEventHandler.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\settings.cpp" />
+    <ClCompile Include="src\PCH.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\inputHandler\animEvent.h" />
+    <ClInclude Include="src\inputHandler\inputTracer.h" />
+    <ClInclude Include="src\inputHandler\inputTrigger.h" />
+    <ClInclude Include="src\inputHandler\movementInputTracer.h" />
+    <ClInclude Include="src\lib\SimpleIni.h" />
+    <ClInclude Include="src\hasher.hpp" />
+    <ClInclude Include="src\hooks.h" />
+    <ClInclude Include="src\inputEventHandler.h" />
+    <ClInclude Include="src\PCH.h" />
+    <ClInclude Include="src\settings.h" />
+    <ClInclude Include="src\utils.h" />
+  </ItemGroup>
+</Project>
